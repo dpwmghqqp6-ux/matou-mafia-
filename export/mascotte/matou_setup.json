@@ -1,0 +1,702 @@
+{
+  "skeleton": {
+    "hash": "matou-mafia-setup",
+    "spine": "4.1.00",
+    "x": -866.0,
+    "y": 0,
+    "width": 1732,
+    "height": 2048,
+    "images": "./parts/",
+    "audio": ""
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "arm_L_lower",
+      "parent": "root",
+      "x": 0,
+      "y": 9.24,
+      "length": 10
+    },
+    {
+      "name": "arm_L_upper",
+      "parent": "root",
+      "x": 0,
+      "y": 7.16,
+      "length": 10
+    },
+    {
+      "name": "arm_R_lower",
+      "parent": "root",
+      "x": 0,
+      "y": 5.08,
+      "length": 10
+    },
+    {
+      "name": "arm_R_upper",
+      "parent": "root",
+      "x": 0,
+      "y": 3.0,
+      "length": 10
+    },
+    {
+      "name": "brow_L",
+      "parent": "root",
+      "x": 0,
+      "y": 0.92,
+      "length": 10
+    },
+    {
+      "name": "brow_R",
+      "parent": "root",
+      "x": 0,
+      "y": -1.16,
+      "length": 10
+    },
+    {
+      "name": "cap",
+      "parent": "root",
+      "x": 0,
+      "y": -3.24,
+      "length": 10
+    },
+    {
+      "name": "cigarette",
+      "parent": "root",
+      "x": 0,
+      "y": -5.32,
+      "length": 10
+    },
+    {
+      "name": "ear_L",
+      "parent": "root",
+      "x": 0,
+      "y": -7.4,
+      "length": 10
+    },
+    {
+      "name": "ear_R",
+      "parent": "root",
+      "x": 0,
+      "y": -9.48,
+      "length": 10
+    },
+    {
+      "name": "eye_L",
+      "parent": "root",
+      "x": 0,
+      "y": -11.56,
+      "length": 10
+    },
+    {
+      "name": "eye_R",
+      "parent": "root",
+      "x": 0,
+      "y": -13.64,
+      "length": 10
+    },
+    {
+      "name": "foot_L",
+      "parent": "root",
+      "x": 0,
+      "y": -15.72,
+      "length": 10
+    },
+    {
+      "name": "foot_R",
+      "parent": "root",
+      "x": 0,
+      "y": -17.8,
+      "length": 10
+    },
+    {
+      "name": "hand_L",
+      "parent": "root",
+      "x": 0,
+      "y": -19.88,
+      "length": 10
+    },
+    {
+      "name": "hand_R",
+      "parent": "root",
+      "x": 0,
+      "y": -21.96,
+      "length": 10
+    },
+    {
+      "name": "head",
+      "parent": "root",
+      "x": 0,
+      "y": -24.04,
+      "length": 10
+    },
+    {
+      "name": "leg_L",
+      "parent": "root",
+      "x": 0,
+      "y": -26.12,
+      "length": 10
+    },
+    {
+      "name": "leg_R",
+      "parent": "root",
+      "x": 0,
+      "y": -28.2,
+      "length": 10
+    },
+    {
+      "name": "mouth",
+      "parent": "root",
+      "x": 0,
+      "y": -30.28,
+      "length": 10
+    },
+    {
+      "name": "muzzle",
+      "parent": "root",
+      "x": 0,
+      "y": -32.36,
+      "length": 10
+    },
+    {
+      "name": "nose",
+      "parent": "root",
+      "x": 0,
+      "y": -34.44,
+      "length": 10
+    },
+    {
+      "name": "pupil_L",
+      "parent": "root",
+      "x": 0,
+      "y": -36.52,
+      "length": 10
+    },
+    {
+      "name": "pupil_R",
+      "parent": "root",
+      "x": 0,
+      "y": -38.6,
+      "length": 10
+    },
+    {
+      "name": "shorts",
+      "parent": "root",
+      "x": 0,
+      "y": -40.68,
+      "length": 10
+    },
+    {
+      "name": "strap_L",
+      "parent": "root",
+      "x": 0,
+      "y": -42.76,
+      "length": 10
+    },
+    {
+      "name": "strap_R",
+      "parent": "root",
+      "x": 0,
+      "y": -44.84,
+      "length": 10
+    },
+    {
+      "name": "tail_01",
+      "parent": "root",
+      "x": 0,
+      "y": -46.92,
+      "length": 10
+    },
+    {
+      "name": "tail_02",
+      "parent": "root",
+      "x": 0,
+      "y": -49.0,
+      "length": 10
+    },
+    {
+      "name": "tail_03",
+      "parent": "root",
+      "x": 0,
+      "y": -51.08,
+      "length": 10
+    },
+    {
+      "name": "torso",
+      "parent": "root",
+      "x": 0,
+      "y": -53.160000000000004,
+      "length": 10
+    }
+  ],
+  "slots": [
+    {
+      "name": "arm_L_lower",
+      "bone": "arm_L_lower",
+      "attachment": "arm_L_lower"
+    },
+    {
+      "name": "arm_L_upper",
+      "bone": "arm_L_upper",
+      "attachment": "arm_L_upper"
+    },
+    {
+      "name": "arm_R_lower",
+      "bone": "arm_R_lower",
+      "attachment": "arm_R_lower"
+    },
+    {
+      "name": "arm_R_upper",
+      "bone": "arm_R_upper",
+      "attachment": "arm_R_upper"
+    },
+    {
+      "name": "brow_L",
+      "bone": "brow_L",
+      "attachment": "brow_L"
+    },
+    {
+      "name": "brow_R",
+      "bone": "brow_R",
+      "attachment": "brow_R"
+    },
+    {
+      "name": "cap",
+      "bone": "cap",
+      "attachment": "cap"
+    },
+    {
+      "name": "cigarette",
+      "bone": "cigarette",
+      "attachment": "cigarette"
+    },
+    {
+      "name": "ear_L",
+      "bone": "ear_L",
+      "attachment": "ear_L"
+    },
+    {
+      "name": "ear_R",
+      "bone": "ear_R",
+      "attachment": "ear_R"
+    },
+    {
+      "name": "eye_L",
+      "bone": "eye_L",
+      "attachment": "eye_L"
+    },
+    {
+      "name": "eye_R",
+      "bone": "eye_R",
+      "attachment": "eye_R"
+    },
+    {
+      "name": "foot_L",
+      "bone": "foot_L",
+      "attachment": "foot_L"
+    },
+    {
+      "name": "foot_R",
+      "bone": "foot_R",
+      "attachment": "foot_R"
+    },
+    {
+      "name": "hand_L",
+      "bone": "hand_L",
+      "attachment": "hand_L"
+    },
+    {
+      "name": "hand_R",
+      "bone": "hand_R",
+      "attachment": "hand_R"
+    },
+    {
+      "name": "head",
+      "bone": "head",
+      "attachment": "head"
+    },
+    {
+      "name": "leg_L",
+      "bone": "leg_L",
+      "attachment": "leg_L"
+    },
+    {
+      "name": "leg_R",
+      "bone": "leg_R",
+      "attachment": "leg_R"
+    },
+    {
+      "name": "mouth",
+      "bone": "mouth",
+      "attachment": "mouth"
+    },
+    {
+      "name": "muzzle",
+      "bone": "muzzle",
+      "attachment": "muzzle"
+    },
+    {
+      "name": "nose",
+      "bone": "nose",
+      "attachment": "nose"
+    },
+    {
+      "name": "pupil_L",
+      "bone": "pupil_L",
+      "attachment": "pupil_L"
+    },
+    {
+      "name": "pupil_R",
+      "bone": "pupil_R",
+      "attachment": "pupil_R"
+    },
+    {
+      "name": "shorts",
+      "bone": "shorts",
+      "attachment": "shorts"
+    },
+    {
+      "name": "strap_L",
+      "bone": "strap_L",
+      "attachment": "strap_L"
+    },
+    {
+      "name": "strap_R",
+      "bone": "strap_R",
+      "attachment": "strap_R"
+    },
+    {
+      "name": "tail_01",
+      "bone": "tail_01",
+      "attachment": "tail_01"
+    },
+    {
+      "name": "tail_02",
+      "bone": "tail_02",
+      "attachment": "tail_02"
+    },
+    {
+      "name": "tail_03",
+      "bone": "tail_03",
+      "attachment": "tail_03"
+    },
+    {
+      "name": "torso",
+      "bone": "torso",
+      "attachment": "torso"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "arm_L_lower": {
+          "arm_L_lower": {
+            "type": "region",
+            "width": 169,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "arm_L_upper": {
+          "arm_L_upper": {
+            "type": "region",
+            "width": 159,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "arm_R_lower": {
+          "arm_R_lower": {
+            "type": "region",
+            "width": 142,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "arm_R_upper": {
+          "arm_R_upper": {
+            "type": "region",
+            "width": 150,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "brow_L": {
+          "brow_L": {
+            "type": "region",
+            "width": 217,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "brow_R": {
+          "brow_R": {
+            "type": "region",
+            "width": 304,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "cap": {
+          "cap": {
+            "type": "region",
+            "width": 227,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "cigarette": {
+          "cigarette": {
+            "type": "region",
+            "width": 296,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "ear_L": {
+          "ear_L": {
+            "type": "region",
+            "width": 416,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "ear_R": {
+          "ear_R": {
+            "type": "region",
+            "width": 272,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "eye_L": {
+          "eye_L": {
+            "type": "region",
+            "width": 396,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "eye_R": {
+          "eye_R": {
+            "type": "region",
+            "width": 403,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "foot_L": {
+          "foot_L": {
+            "type": "region",
+            "width": 302,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "foot_R": {
+          "foot_R": {
+            "type": "region",
+            "width": 233,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "hand_L": {
+          "hand_L": {
+            "type": "region",
+            "width": 228,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "hand_R": {
+          "hand_R": {
+            "type": "region",
+            "width": 183,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "head": {
+          "head": {
+            "type": "region",
+            "width": 220,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "leg_L": {
+          "leg_L": {
+            "type": "region",
+            "width": 152,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "leg_R": {
+          "leg_R": {
+            "type": "region",
+            "width": 108,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "mouth": {
+          "mouth": {
+            "type": "region",
+            "width": 296,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "muzzle": {
+          "muzzle": {
+            "type": "region",
+            "width": 296,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "nose": {
+          "nose": {
+            "type": "region",
+            "width": 296,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "pupil_L": {
+          "pupil_L": {
+            "type": "region",
+            "width": 262,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "pupil_R": {
+          "pupil_R": {
+            "type": "region",
+            "width": 219,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "shorts": {
+          "shorts": {
+            "type": "region",
+            "width": 256,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "strap_L": {
+          "strap_L": {
+            "type": "region",
+            "width": 110,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "strap_R": {
+          "strap_R": {
+            "type": "region",
+            "width": 110,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "tail_01": {
+          "tail_01": {
+            "type": "region",
+            "width": 230,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "tail_02": {
+          "tail_02": {
+            "type": "region",
+            "width": 367,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "tail_03": {
+          "tail_03": {
+            "type": "region",
+            "width": 236,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        },
+        "torso": {
+          "torso": {
+            "type": "region",
+            "width": 178,
+            "height": 200,
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "idle": {
+      "bones": {
+        "root": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.6,
+              "x": 0,
+              "y": 4
+            },
+            {
+              "time": 3.2,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

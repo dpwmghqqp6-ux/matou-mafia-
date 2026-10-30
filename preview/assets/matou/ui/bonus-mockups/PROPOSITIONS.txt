@@ -1,0 +1,27 @@
+CHOISIS TON BONUS — 4 maquettes (à valider avant développement)
+
+A — Bureau du Parrain (bonus_mock_A_bureau.jpg)
+  Boucle: fumée de cigare, lampe qui pulse, rideaux qui bougent.
+  Survol: dossier qui s'entrouvre, photo animée.
+  Clic: patte du matou qui saisit le dossier → iris / fumée vers les portes.
+  Coût: 1 image (faite) + 1–2 clips vidéo boucle bureau + 2 clips ouverture dossier.
+
+B — Le carrefour (bonus_mock_B_carrefour.jpg) ★ le plus cinématographique
+  Boucle: sirènes / projecteur à gauche, vapeur du train à droite, matou idle.
+  Survol: chemin qui s'éclaircit, caméra qui pousse légèrement.
+  Clic: matou qui part dans la direction + travelling caméra → portes.
+  Coût: 1 image (faite) + 2 boucles vidéo de fond (banque/train) + 1 clip départ matou. Cher.
+
+C — Journal EXTRA! 1930 (bonus_mock_C_journal.jpg)
+  Boucle: journal qui flotte / grain de film, titres qui tremblent légèrement.
+  Survol: photo du titre qui s'anime (halftone → live).
+  Clic: journal qui se déchire en deux → révélation du bonus.
+  Coût: 1 image (faite) + 1 clip journal qui arrive + 1 clip déchirure. Moyen.
+
+D — Cartes de poker géantes (bonus_mock_D_cartes.jpg)
+  Boucle: reflet doré qui glisse, fumée, chips.
+  Survol: carte qui se soulève / tilt 3D.
+  Clic: carte qui claque sur la table → transition.
+  Coût: 1 image (faite) + animations CSS/WebGL surtout, 0–1 clip. Le moins cher.
+
+Dis laquelle on développe (A/B/C/D).
